@@ -1,0 +1,24 @@
+Package: MG1StationatyProbability
+Type: Package
+Title: Provides functions for calculation of stationary distribution for a Markov-modulated M/G/1 queuing system with alternalting Poisson flow of arrivals
+URL: https://link.springer.com/chapter/10.1007/978-3-030-92507-9_13
+Version: 0.1.0
+Author: Olga Zoldaka
+Authors@R: person("Olga", "Zoldaka", role = c("aut", "cre"), email="zoldaka@gmail.com")
+Maintainer: Olga Zoldaka <zoldaka@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+BugReports: https://github.com/MashroomMole/MG1StationatyProbability/issues
+Imports: 
+        parallel(>= 4.3.0),
+        doParallel(>= 1.0.17),
+        foreach(>= 1.5.2),
+        memoise(>= 2.0.1),
+        stats(>= 4.3.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

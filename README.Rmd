@@ -1,0 +1,25 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# MG1StationatyProbability
+The goal of MG1StationatyProbability is to automate computations of stationary probability and derived indecies for M/G/1 queuing system with alternating Poisson flow of arrivals.
+
+## Installation
+
+You can install the development version of MG1StationatyProbability from [GitHub](https://github.com) with:
+
+``` r
+devtools::install_github("MashroomMole/MG1StationatyProbability")
+```
