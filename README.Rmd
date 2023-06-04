@@ -1,9 +1,9 @@
 # MG1StationaryProbability
-The goal of MG1StationatyProbability is to automate computations of stationary probability and derived indecies for M/G/1 queuing system with alternating Poisson flow of arrivals.
+The goal of MG1StationaryProbability is to automate computations of stationary probability and derived indecies for M/G/1 queuing system with alternating Poisson flow of arrivals.
 
 ## Installation
 
-You can install the development version of MG1StationatyProbability from [GitHub](https://github.com) with:
+You can install the development version of MG1StationaryProbability from [GitHub](https://github.com) with:
 
 ``` r
 devtools::install_github("MashroomMole/MG1StationaryProbability")

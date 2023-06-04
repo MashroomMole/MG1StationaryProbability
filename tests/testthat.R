@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(MG1StationatyProbability)
+library(MG1StationaryProbability)
 
-test_check("MG1StationatyProbability")
+test_check("MG1StationaryProbability")

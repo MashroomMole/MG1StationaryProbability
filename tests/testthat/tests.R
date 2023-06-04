@@ -56,3 +56,4 @@ testthat::expect_equal(result[6,4], 0.32488470, tolerance = tolerance)
 testthat::expect_equal(result[5,7], 0.079008928, tolerance = tolerance)
 testthat::expect_equal(result[10,10], 0.284434002, tolerance = tolerance)
 }
+
