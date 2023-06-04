@@ -1,4 +1,4 @@
-Package: MG1StationatyProbability
+Package: MG1StationaryProbability
 Type: Package
 Title: Provides functions for calculation of stationary distribution for a Markov-modulated M/G/1 queuing system with alternalting Poisson flow of arrivals
 URL: https://link.springer.com/chapter/10.1007/978-3-030-92507-9_13
