@@ -1,13 +1,11 @@
 Package: MG1StationaryProbability
 Type: Package
-Title: Provides functions for calculation of stationary distribution for a Markov-modulated M/G/1 queuing system with alternalting Poisson flow of arrivals
+Title: Provides Functions for Calculation of Stationary Distribution for a Markov-Modulated M/G/1 Queuing System with Alternalting Poisson Flow of Arrivals
 URL: https://github.com/MashroomMole/MG1StationaryProbability
 Version: 0.1.0
-Author: Olga Zoldaka
 Authors@R: person("Olga", "Zoldaka", role = c("aut", "cre"), email="zoldaka@gmail.com")
-Maintainer: Olga Zoldaka <zoldaka@gmail.com>
-Description: This package implements the idea of a computational algorithm described in the article (Springer)[https://link.springer.com/chapter/10.1007/978-3-030-92507-9_13]
-    Its purpose is to automate computations for M/G/1 with alternating Poisson flow of arrivals. It offers a set of functions to calculate various mean indices of the system, including mean flow intensity, mean service busy and idle times, and the system's stationary probability.
+Description: The idea of a computational algorithm described in the article (Springer)<https://link.springer.com/chapter/10.1007/978-3-030-92507-9_13>
+    The purpose of this package is to automate computations for M/G/1 with alternating Poisson flow of arrivals. It offers a set of functions to calculate various mean indices of the system, including mean flow intensity, mean service busy and idle times, and the system's stationary probability.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
