@@ -12,6 +12,9 @@ in alternating environment states}
 
 \item{lambda}{Poisson flow intensity vector}
 }
+\value{
+load coefficient value (double) of the arriving flow
+}
 \description{
 Load coefficient
 }

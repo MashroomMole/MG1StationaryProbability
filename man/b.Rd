@@ -9,6 +9,9 @@ b(t)
 \arguments{
 \item{t}{time value}
 }
+\value{
+density function value (double) given \code{t}
+}
 \description{
 Service continuous density distribution
 }

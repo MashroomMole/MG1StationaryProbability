@@ -2,7 +2,7 @@
 % Please edit documentation in R/script.R
 \name{p0}
 \alias{p0}
-\title{The stationary probabilities of the p0}
+\title{The stationary probabilities of the environment state 0}
 \usage{
 p0(m = c(0.2, 0.3))
 }
@@ -10,8 +10,11 @@ p0(m = c(0.2, 0.3))
 \item{m}{distribution parameters vector of sojourn times
 in alternating environment states}
 }
+\value{
+stationary probability of the environment state 0 (double)
+}
 \description{
-The stationary probabilities of the p0
+The stationary probabilities of the environment state 0
 }
 \examples{
 p0()

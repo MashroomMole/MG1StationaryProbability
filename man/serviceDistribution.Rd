@@ -9,6 +9,9 @@ serviceDistribution(t)
 \arguments{
 \item{t}{time value}
 }
+\value{
+service function value (double) given \code{t}
+}
 \description{
 Service distribution function
 }

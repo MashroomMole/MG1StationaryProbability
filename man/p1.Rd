@@ -2,7 +2,7 @@
 % Please edit documentation in R/script.R
 \name{p1}
 \alias{p1}
-\title{The stationary probabilities of the p1}
+\title{The stationary probabilities of the environment state 1}
 \usage{
 p1(m = c(0.2, 0.3))
 }
@@ -10,6 +10,9 @@ p1(m = c(0.2, 0.3))
 \item{m}{distribution parameters vector of sojourn times
 in alternating environment states}
 }
+\value{
+stationary probability of the environment state 1 (double)
+}
 \description{
-The stationary probabilities of the p1
+The stationary probabilities of the environment state 1
 }

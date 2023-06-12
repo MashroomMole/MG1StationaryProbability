@@ -9,6 +9,9 @@ flowIntensityMean(lambda = c(1, 2))
 \arguments{
 \item{lambda}{Poisson flow intensity vector}
 }
+\value{
+mean intensity value (double) of the arrived flow
+}
 \description{
 The mean intensity of the arrived flow
 }

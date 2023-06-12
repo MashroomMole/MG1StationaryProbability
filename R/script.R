@@ -4,6 +4,8 @@ beta <- 0.55
 #'
 #' @param t time value
 #'
+#' @return density function value (double) given \code{t}
+#'
 #' @export
 #'
 b <- function(t) {
@@ -25,6 +27,8 @@ b <- function(t) {
 #'
 #' @param t time value
 #'
+#' @return service function value (double) given \code{t}
+#'
 #' @export
 #'
 serviceDistribution <- function(t) {
@@ -45,10 +49,12 @@ serviceDistribution <- function(t) {
 
 }
 
-#' The stationary probabilities of the p0
+#' The stationary probabilities of the environment state 0
 #'
 #' @param m distribution parameters vector of sojourn times
 #' in alternating environment states
+#'
+#' @return stationary probability of the environment state 0 (double)
 #'
 #' @export
 #'
@@ -56,10 +62,12 @@ serviceDistribution <- function(t) {
 p0 <- function(m = c(0.2, 0.3)) {
   m[2]/sum(m)
 }
-#' The stationary probabilities of the p1
+#' The stationary probabilities of the environment state 1
 #'
 #' @param m distribution parameters vector of sojourn times
 #' in alternating environment states
+#'
+#' @return stationary probability of the environment state 1 (double)
 #'
 #' @export
 #'
@@ -70,6 +78,8 @@ p1 <- function(m = c(0.2, 0.3)) {
 #' The mean intensity of the arrived flow
 #'
 #' @param lambda Poisson flow intensity vector
+#'
+#' @return mean intensity value (double) of the arrived flow
 #'
 #' @export
 #'
@@ -83,6 +93,8 @@ flowIntensityMean <- function(lambda = c(1, 2)) {
 #' @param m distribution parameters vector of sojourn times
 #' in alternating environment states
 #' @param lambda Poisson flow intensity vector
+#'
+#' @return load coefficient value (double) of the arriving flow
 #'
 #' @export
 #'
